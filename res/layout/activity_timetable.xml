@@ -1,0 +1,107 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/bg4"
+
+>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="405dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/title_gif" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button1"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="changelayout_mon"
+        android:padding="4dp"
+        android:shadowColor="#000000"
+        android:text="MONDAY"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:backgroundTint="#FFEB3B"
+        android:onClick="changelayout_tue"
+        android:padding="4dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:shadowColor="#000000"
+        android:text="TUESDAY" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button3"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:onClick="changelayout_wed"
+        android:padding="4dp"
+        android:shadowColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="WEDNESDAY" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button4"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="#19F322"
+        android:textColor="@color/black"
+        android:onClick="changelayout_thu"
+        android:padding="4dp"
+        android:shadowColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="THURSDAY" />
+
+
+    <!--<androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/musicButton"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/sponge1"
+        android:onClick="changelayout_main" />-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button5"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#F62415"
+        android:onClick="changelayout_fri"
+        android:padding="4dp"
+        android:shadowColor="#000000"
+        android:text="FRIDAY"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="760dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about_text" />
+</RelativeLayout>
